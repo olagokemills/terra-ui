@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Campton Bold";
+    src: url("../fonts/campton-cufonfonts/CamptonBold.otf");
+}
+@font-face {
+    font-family: "Campton Light";
+    src: url("../fonts/campton-cufonfonts/CamptonLight.otf");
+}
+@font-face {
+    font-family: "Campton Regular";
+    src: url("../fonts/campton-cufonfonts/CamptonBook.otf");
+}
+
+@font-face {
+    font-family: "Campton Medium";
+    src: url("../fonts/campton-cufonfonts/CamptonMedium.otf");
+}
+body{
+    font-family: 'Campton Regular';
+}
+/* h1,h2,h3,h4,h5,h6{
+    font-family: 'Campton Bold';
+} */
+a,button,span{
+    font-family: 'Campton Medium';
+}

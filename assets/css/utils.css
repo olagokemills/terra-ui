@@ -1,0 +1,15 @@
+.bg-gray{
+    background-color: #F4F6F6 !important;   
+}
+.bg-pry{
+    background-color: #932F8F !important;
+}
+.color-pry{
+    color: #932F8F !important;
+}
+.border-radius-30{
+    border-radius: 30px;
+}
+.bg-trans{
+    background: transparent;
+}
