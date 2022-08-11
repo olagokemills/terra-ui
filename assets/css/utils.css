@@ -4,6 +4,9 @@
 .bg-pry{
     background-color: #932F8F !important;
 }
+.bg-sec{
+    background-color: #E4ECF6 !important;
+}
 .color-pry{
     color: #932F8F !important;
 }
@@ -12,4 +15,10 @@
 }
 .bg-trans{
     background: transparent;
+}
+.border-0:focus-visible{
+    outline: 0 !important;
+}
+.w-200p{
+    width: 200px;
 }
