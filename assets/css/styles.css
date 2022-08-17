@@ -31,3 +31,64 @@
     left: 45%;
     bottom: -1%;
 }
+.sidebar{
+    border-radius: 40px;
+    background-color: #FFFF;
+    position: fixed;
+    width: 250px;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    z-index: 1000;
+    height: 95vh;
+    margin: 1rem;
+}
+.main-wrapper{
+    background-color: #E4ECF6;
+    min-height: 100vh ;
+    max-height: auto !important;
+}
+.main-section{
+    padding-left: 250px;
+    overflow: hidden;
+}
+
+/* .sidebar-list__nav-items{
+    padding: 0;
+} */
+.nav-items{
+    padding: 0;
+    list-style: none;
+}
+.active{
+    border-left: 2px solid #333333;
+    background-color: #E4ECF6;
+}
+.active a{
+    color: #333333;
+}
+.nav-items li{
+    padding: 1rem;
+    transition: all 0.45s ease-in-out;
+}
+li a{
+    padding: 1rem;
+    cursor: pointer;
+    color: #757575;   
+}
+.payment-cards{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 2rem;
+    text-align: center;
+    box-shadow:  -4px -4px 10px rgba(242, 242, 242, 0.5), 4px 5px 10px rgba(208, 208, 208, 0.2), inset 0px 4px 10px rgba(238, 238, 238, 0.25);;
+}
+.payment-cards__inner{
+    /* background-color: #E4ECF6;
+    padding: 2rem;
+    border-radius: 50%; */
+}
+/* Top right radius: 14px
+Bottom right radius: 26px */
+.text-pre{
+    font-size: 12px;
+    font-family: 'Campton Bold';
+}
