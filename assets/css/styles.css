@@ -100,3 +100,8 @@ Bottom right radius: 26px */
 .form-container h6{
     font-family: 'Campton SemiBold';
 }
+.card-container{
+    background-image: linear-gradient(to right, #932F8F,#530050);
+    padding: 1rem;
+    border-radius: 30px;
+}
