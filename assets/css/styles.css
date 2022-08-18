@@ -92,3 +92,11 @@ Bottom right radius: 26px */
     font-size: 12px;
     font-family: 'Campton Bold';
 }
+.form-container{
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: #FFFFFF;
+}
+.form-container h6{
+    font-family: 'Campton SemiBold';
+}

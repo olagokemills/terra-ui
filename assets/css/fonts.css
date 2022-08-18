@@ -15,6 +15,14 @@
     font-family: "Campton Medium";
     src: url("../fonts/campton-cufonfonts/CamptonMedium.otf");
 }
+@font-face {
+    font-family: "Campton SemiBold";
+    src: url("../fonts/campton-cufonfonts/CamptonSemiBold.otf");
+}
+@font-face {
+    font-family: "Campton Book";
+    src: url("../fonts/campton-cufonfonts/CamptonBook.otf");
+}
 body{
     font-family: 'Campton Regular';
 }
@@ -23,4 +31,10 @@ body{
 } */
 a,button{
     font-family: 'Campton Medium';
+}
+.font-SemiBold{
+    font-family: 'Campton SemiBold';
+}
+label{
+    font-family: 'Campton Book';
 }

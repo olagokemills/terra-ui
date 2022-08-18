@@ -60,5 +60,5 @@
 }
 input[disabled]
 {
-    background-color: #F3F7FC;
+    background-color: #F3F7FC !important;
 }
