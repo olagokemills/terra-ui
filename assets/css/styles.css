@@ -40,6 +40,7 @@
     z-index: 1000;
     height: 95vh;
     margin: 1rem;
+    overflow: scroll;
 }
 .main-wrapper{
     background-color: #E4ECF6;
