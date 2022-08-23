@@ -59,11 +59,11 @@
     padding: 0;
     list-style: none;
 }
-.active{
+.sidebar-list .active{
     border-left: 2px solid #333333;
     background-color: #E4ECF6;
 }
-.active a{
+.sidebar-list .active a{
     color: #333333;
 }
 .nav-items li{
@@ -105,4 +105,14 @@ Bottom right radius: 26px */
     background-image: linear-gradient(to right, #932F8F,#530050);
     padding: 1rem;
     border-radius: 30px;
+}
+.quick-pay{
+    background-color: #F4F6F6 !important;
+}
+.quick-pay .nav-link{
+    background-color: #FFFFFF !important;
+    color: #932F8F !important;
+}
+.nav-link.active{
+    background-color: #FFD1FD !important;
 }

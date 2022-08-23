@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/utils.css" >
+    <link rel="stylesheet" href="../assets/css/fonts.css" >
+    <link rel="stylesheet" href="../assets/css/styles.css" >
+</head>
+<body>
+
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#InvestmentModal">
+        Launch Request Investment
+      </button>
+
+      <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#TerminalModal">
+        Launch Terminal Issues
+      </button>
+      <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#SupportModal">
+        Launch Support request
+      </button>
+      <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#DisputeModal">
+       Launch Dispute
+      </button>
+
+      <!-- investment Modal -->
+      <div class="modal fade" id="InvestmentModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content bg-trans border-0">
+            <div class="modal-header border-0">
+              <!-- <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5> -->
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <img src="../assets/images/icos/close.svg" />
+              </button>
+            </div>
+            <div class="modal-body bg-gray p-4 border-radius-30 pt-5">
+              <div class="w-100 text-center mb-4">
+                <h4>Request Investment</h4>
+              </div>
+              <div class="w-100 d-flex justify-content-center">
+                <div class="form_container mb-3 col-sm-7">
+                  <div class="form-group">
+                      <label>Investment Title</label>
+                      <input type="text" class="form-control rounded-pill" placeholder="Investment Title"> 
+                  </div>
+                  <div class="form-group">
+                      <label>Investor ID </label>
+                      <input type="text" class="form-control rounded-pill" placeholder="Enter ID"> 
+                  </div>
+                  <div class="form-group">
+                      <label>Enter Amount</label>
+                      <input type="text" class="form-control rounded-pill" placeholder="Enter Investment amount"> 
+                  </div>
+                  <div class="form-group">
+                      <label>Commision </label>
+                      <input type="text" class="form-control rounded-pill" placeholder="Enter a percentage"> 
+                  </div>
+                  <div class="form-group">
+                      <label>Duration</label>
+                      <div class="form-row">
+                          <div class="col-sm-6">
+                            <input type="date" class="form-control rounded-pill" />
+                          </div>
+                          <div class="col-sm-6">
+                            <input type="date" class="form-control rounded-pill" />
+                          </div>
+                      </div>
+                  </div>
+                    <div class="form-group">
+                      <label>Attach a file (optionam</label>
+                      <div class="text-center rounded-pill p-2 bg-sec">
+                        <img src="../assets/images/utils/attach.svg" /> <small>Choose a file</small>
+                      </div>
+                    </div>
+                  <div>
+                      <button class="btn text-white w-100 bg-pry rounded-pill">Submit Request  <img src="../assets/images/icos/arrow-white.svg" /> </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- terminal Modal -->
+      <div class="modal fade" id="TerminalModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content bg-trans border-0">
+            <div class="modal-header border-0">
+              <!-- <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5> -->
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <img src="../assets/images/icos/close.svg" />
+              </button>
+            </div>
+            <div class="modal-body bg-gray p-4 border-radius-30 pt-5">
+              <div class="w-100 text-center mb-4">
+                <h4>Terminal Issues</h4>
+              </div>
+              <div class="w-100 d-flex justify-content-center">
+                <div class="form_container mb-3 col-sm-7">
+                  <div class="form-group">
+                      <label>Dispute Title</label>
+                      <input type="text" class="form-control rounded-pill" placeholder="Enter Dispute Title"> 
+                  </div>
+                  <div class="form-group">
+                      <label>Trasaction ID (optional)</label>
+                      <input type="text" class="form-control rounded-pill" placeholder="Enter Trasaction ID"> 
+                  </div>
+                  <div class="form-group">
+                      <label>Dispute Description</label>
+                      <textarea class="form-control rounded" rows="5" placeholder="Enter dispute description">
+                      </textarea>
+                  </div>
+                    <div class="form-group">
+                      <label>Attach a file (optionam</label>
+                      <div class="text-center rounded-pill p-2 bg-sec">
+                        <img src="../assets/images/utils/attach.svg" /> <small>Choose a file</small>
+                      </div>
+                    </div>
+                  <div>
+                      <button class="btn text-white w-100 bg-pry rounded-pill">Submit Request  <img src="../assets/images/icos/arrow-white.svg" /> </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- support Modal -->
+      <div class="modal fade" id="SupportModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content bg-trans border-0">
+            <div class="modal-header border-0">
+              <!-- <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5> -->
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <img src="../assets/images/icos/close.svg" />
+              </button>
+            </div>
+            <div class="modal-body bg-gray p-4 border-radius-30 pt-5">
+              <div class="w-100 text-center mb-4">
+                <h4>Terminal Issues</h4>
+              </div>
+              <div class="w-100 d-flex justify-content-center">
+                <div class="form_container mb-3 col-sm-7">
+                  <div class="form-group">
+                      <label>Request Title</label>
+                      <input type="text" class="form-control rounded-pill" placeholder="Enter Request Title"> 
+                  </div>
+                  <div class="form-group">
+                      <label>Request Description</label>
+                      <textarea class="form-control rounded" rows="5" placeholder="Enter dispute description">
+                      </textarea>
+                  </div>
+                    <div class="form-group">
+                      <label>Attach a file (optional)</label>
+                      <div class="text-center rounded-pill p-2 bg-sec">
+                        <img src="../assets/images/utils/attach.svg" /> <small>Choose a file</small>
+                      </div>
+                    </div>
+                  <div>
+                      <button class="btn text-white w-100 bg-pry rounded-pill">Submit Request  <img src="../assets/images/icos/arrow-white.svg" /> </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dispute Modal -->
+      <div class="modal fade" id="DisputeModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content bg-trans border-0">
+            <div class="modal-header border-0">
+              <!-- <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5> -->
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <img src="../assets/images/icos/close.svg" />
+              </button>
+            </div>
+            <div class="modal-body bg-gray p-4 border-radius-30 pt-5">
+              <div class="w-100 text-center mb-4">
+                <h4>Terminal Issues</h4>
+              </div>
+              <div class="w-100 d-flex justify-content-center">
+                <div class="form_container mb-3 col-sm-7">
+                  <div class="form-group">
+                      <label>Dispute Title</label>
+                      <input type="text" class="form-control rounded-pill" placeholder="Enter Dispute Title"> 
+                  </div>
+                  <div class="form-group">
+                      <label>Trasaction ID (optional)</label>
+                      <input type="text" class="form-control rounded-pill" placeholder="Enter Trasaction ID"> 
+                  </div>
+                  <div class="form-group">
+                      <label>Dispute Description</label>
+                      <textarea class="form-control rounded" rows="5" placeholder="Enter dispute description">
+                      </textarea>
+                  </div>
+                    <div class="form-group">
+                      <label>Attach a file (optionam</label>
+                      <div class="text-center rounded-pill p-2 bg-sec">
+                        <img src="../assets/images/utils/attach.svg" /> <small>Choose a file</small>
+                      </div>
+                    </div>
+                  <div>
+                      <button class="btn text-white w-100 bg-pry rounded-pill">Submit Request  <img src="../assets/images/icos/arrow-white.svg" /> </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+
+</html>
