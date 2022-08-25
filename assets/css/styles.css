@@ -113,6 +113,46 @@ Bottom right radius: 26px */
     background-color: #FFFFFF !important;
     color: #932F8F !important;
 }
-.nav-link.active{
+.quick-pay__link.active{
     background-color: #FFD1FD !important;
+}
+.table thead tr{
+    color: #8D9CAE !important;
+}
+tbody tr{
+    background-color: #F5F5F5 !important;
+    border-bottom: solid #FFFFFF 5px
+}
+.table >tbody>tr>td{
+    vertical-align: middle;
+}
+ tbody > tr > td:nth-child(1){
+    font-family: "Campton Bold";
+}
+.tab-link{
+    width: 200px !important;
+    background-color: inherit !important;
+    color: #AAAAAA !important;
+}
+.tab-link.active{
+    border-bottom: 2px solid #932F8F !important;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    color: #333333 !important;
+}
+.message-container{
+    background-color: #F1F0F7;
+    padding: 1rem;
+    border-radius: 30px;
+}
+.form-container__mini{
+    width: 40rem;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    padding:3rem;
+}
+.input-custome{
+    overflow: hidden;
+    width: 100%;
 }
