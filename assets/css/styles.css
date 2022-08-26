@@ -156,3 +156,32 @@ tbody tr{
     overflow: hidden;
     width: 100%;
 }
+.small-input{
+    width: 120px !important;
+    border-radius: 22px;
+    font-size: 10px; 
+    background-color: #E4ECF6 !important;
+    border: 0 !important;
+}
+.small-input__select{
+    width: 120px !important;
+    background-color: #E4ECF6;
+    border: 0 !important;
+    font-size: 10px;
+}
+.btn-pry__white-xsm{
+    color: #FFFFFF;
+    width: 100px;
+    border-radius: 22px;
+    background-color: #932F8F;
+    font-size: 10px;
+}
+.card__holder{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.card__holder p{
+    color: #757575;
+}

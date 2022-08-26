@@ -119,6 +119,7 @@
                                         <div class="p-2">
                                             <strong>Tansaction Stats</strong>
                                             <small class="text-xsm">Your tansaction stats</small>
+                                            <canvas id="myChart"></canvas>
                                         </div>
                                         <div class="p-2">
                                             <div class="dropdown">
@@ -182,7 +183,7 @@
                             </div>
                             <div class="d-flex bg-dark-grey rounded p-2 mb-2">
                                 <div class="rounded bg-white px-2">
-                                    <img class="" src="../assets/images/icos/deposit-ico.svg" />
+                                    <img class="" src="../assets/images/utils/collect-ico.svg" />
                                 </div>
                                 <div class="px-2">
                                     <span class="">Deposit</span><br />
@@ -195,7 +196,7 @@
                             </div>
                             <div class="d-flex bg-dark-grey rounded p-2 mb-2">
                                 <div class="rounded bg-white px-2">
-                                    <img class="" src="../assets/images/icos/deposit-ico.svg" />
+                                    <img class="" src="../assets/images/utils/network-ico.svg" />
                                 </div>
                                 <div class="px-2">
                                     <span class="">Deposit</span><br />
@@ -208,7 +209,7 @@
                             </div>
                             <div class="d-flex bg-dark-grey rounded p-2 mb-2">
                                 <div class="rounded bg-white px-2">
-                                    <img class="" src="../assets/images/icos/deposit-ico.svg" />
+                                    <img class="" src="../assets/images/utils/phone-ico-sm.svg" />
                                 </div>
                                 <div class="px-2">
                                     <span class="">Deposit</span><br />
@@ -279,6 +280,40 @@
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+    <script>
+        const ctx = document.getElementById('myChart');
+        const myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Red', 'Blue', 'Yellow', 'Green'],
+                datasets: [{
+                    label: '# of Votes',
+                    data: [12, 19, 3, 5,],
+                    backgroundColor: [
+                        '#932F8F',
+                        '#FFB800',
+                        '#454545',
+                        '#F4643D',
+                    ],
+                    borderColor: [
+                        '#932F8F',
+                        '#FFB800',
+                        '#454545',
+                        '#F4643D',
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+        </script>
     
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
