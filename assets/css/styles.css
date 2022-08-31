@@ -40,7 +40,8 @@
     z-index: 1000;
     height: 95vh;
     margin: 1rem;
-    overflow: scroll;
+    overflow-x: hidden !important;
+    overflow-y: scroll;
 }
 .sidebar a{
     font-size: 14px !important;
