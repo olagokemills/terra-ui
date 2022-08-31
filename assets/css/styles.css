@@ -42,6 +42,12 @@
     margin: 1rem;
     overflow: scroll;
 }
+.sidebar a{
+    font-size: 14px !important;
+}
+.sidebar a img{
+    width: 15px;
+}
 .main-wrapper{
     background-color: #E4ECF6;
     min-height: 100vh ;
@@ -184,4 +190,47 @@ tbody tr{
 }
 .card__holder p{
     color: #757575;
+}
+.landing-icons .quick-pay__link{
+    background-color: #EFF3FC !important;
+    border: 0;
+    color: #932F8F;
+    font-size: 14px;
+}
+.quick-pay__button{
+    color:#FFFFFF;
+    border: 0;
+    border-radius: 33px;
+    height: 50px;
+    background-color: #932F8F;
+    width: 100% !important;
+    padding: 0.75rem;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.doability-section{
+    background-color: #932F8F;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+    height: 90vh;
+}
+.hero-section{
+    padding-bottom: 2.5rem;
+}
+.doability-section h3{
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+.doability-section .card{
+    border: 0;
+    border-radius: 20px;
+}
+.doability-section .card img{
+}
+.card a{
+    font-family: "Campton Light";
+    margin-bottom: 1rem;
 }

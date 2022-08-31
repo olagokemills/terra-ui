@@ -20,6 +20,10 @@
     src: url("../fonts/campton-cufonfonts/CamptonSemiBold.otf");
 }
 @font-face {
+    font-family: "Campton ExtraBold";
+    src: url("../fonts/campton-cufonfonts/CamptonExtraBold.otf");
+}
+@font-face {
     font-family: "Campton Book";
     src: url("../fonts/campton-cufonfonts/CamptonBook.otf");
 }

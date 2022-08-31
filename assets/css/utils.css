@@ -72,3 +72,6 @@ input[disabled]
 .border-right{
     border-right: 2px solid #D9D9D9 !important;
 }
+.extrabold-text{
+    font-family: "Campton ExtraBold";
+}
