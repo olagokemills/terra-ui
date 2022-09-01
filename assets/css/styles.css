@@ -210,16 +210,16 @@ tbody tr{
     display: flex;
     justify-content: space-between;
 }
-.doability-section{
+.doability-section,.service-section{
     background-color: #932F8F;
-    padding: 1rem;
-    padding-bottom: 1.5rem;
-    height: 90vh;
+    padding: 5rem;
+    padding-bottom: 5rem;
+    /* min-height: 0vh; */
 }
 .hero-section{
     padding-bottom: 2.5rem;
 }
-.doability-section h3{
+.doability-section h3,.service-section h3{
     margin-top: 2rem;
     margin-bottom: 2.5rem;
     text-align: center;
@@ -234,4 +234,30 @@ tbody tr{
 .card a{
     font-family: "Campton Light";
     margin-bottom: 1rem;
+}
+.buy-section,.sell-section{
+    background-color: #FFFFFF;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    align-items: center;
+    align-self: center;
+}
+.buy-section .btn-left, .sell-section .btn-left{
+    background-color: #932F8F;
+    color: #FFFFFF;
+    border-radius: 33px;
+}
+.buy-section .btn-right{
+    background-color: #E4ECF6;
+    border-radius: 33px;
+}
+
+.mini-card{
+    background-color: white;
+    border-radius: 20px;
+    padding: 1rem;
+}
+.service-section .btn-center{
+    background-color: #FFFFFF;
+    border-radius: 33px;
 }
