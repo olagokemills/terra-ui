@@ -261,3 +261,9 @@ tbody tr{
     background-color: #FFFFFF;
     border-radius: 33px;
 }
+.logout-btn{
+    background-color: #FFFFFF;
+    border-radius: 33px;
+    width: 150px;
+    padding: 0.5rem;
+}
