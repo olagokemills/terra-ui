@@ -267,3 +267,26 @@ tbody tr{
     width: 150px;
     padding: 0.5rem;
 }
+footer{
+    background-image: linear-gradient(to bottom, #932F8F,#530050);
+    color: #FFFFFF;
+}
+footer ul{
+    padding-left:0;
+    list-style: none;
+    font-size: 16px;
+}
+footer ul li{
+    padding: 0.5rem 0;
+}
+footer h6{
+    font-size: 18px;
+    font-family: "Campton SemiBold";
+}
+footer p{
+    font-size: 14px;
+    color: #EEEEEE;
+}
+footer hr{
+    border-color: #FFFFFF;
+}
