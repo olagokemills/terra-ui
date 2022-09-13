@@ -235,7 +235,7 @@ tbody tr{
     font-family: "Campton Light";
     margin-bottom: 1rem;
 }
-.buy-section,.sell-section{
+.buy-section,.sell-section,.testimonial-area{
     background-color: #FFFFFF;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -268,7 +268,7 @@ tbody tr{
     padding: 0.5rem;
 }
 footer{
-    background-image: linear-gradient(to bottom, #932F8F,#530050);
+    background-image: linear-gradient(to bottom, #932F8F,#470044);
     color: #FFFFFF;
 }
 footer ul{
@@ -290,3 +290,163 @@ footer p{
 footer hr{
     border-color: #FFFFFF;
 }
+
+.card {
+    border-radius: 10px;
+}
+
+.card.half {
+    border-top-right-radius: none;
+    border-bottom-right-radius: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.splide__arrow{
+    background-color: #FFFFFF;
+    font-size: 14px;
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.15)!important;;
+}
+.partners{
+    background-color: #D9D9D9;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+
+
+
+/* Global Stylings */
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+  } */
+  
+  /* .width-50 {
+    width: 50%;
+  } */
+  
+  /* .ml-auto {
+    margin-left: auto;
+  } */
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Progressbar */
+  .progressbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    counter-reset: step;
+    margin: 2rem 0 4rem;
+  }
+  
+  .progressbar::before,
+  .progress {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 100%;
+    background-color: #dcdcdc;
+    z-index: -1;
+  }
+  
+  .progress {
+    background-color: #932F8F;
+    width: 0%;
+    transition: 0.3s;
+  }
+  
+  .progress-step {
+    width: 2.1875rem;
+    height: 2.1875rem;
+    background-color: #dcdcdc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  /* .progress-step::before {
+    counter-increment: step;
+    content: counter(step);
+  } */
+  
+  .progress-step::after {
+    content: attr(data-title);
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    font-size: 0.85rem;
+    white-space: nowrap;
+    word-break: break-all;
+  }
+  .progress-step:nth-child(1)::after{
+    left:10px;
+  }
+  .progress-step-active {
+    background-color: #932F8F;
+    /* color: #f3f3f3; */
+  }
+  
+  /* Form */
+  .form {
+    width: clamp(320px, 30%, 430px);
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 0.35rem;
+    padding: 1.5rem;
+  }
+  
+  .form-step {
+    display: none;
+    transform-origin: top;
+    animation: animate 0.5s;
+  }
+  
+  .form-step-active {
+    display: block;
+  }
+  
+  .input-group {
+    margin: 2rem 0;
+  }
+  
+  @keyframes animate {
+    from {
+      transform: scale(1, 0);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1, 1);
+      opacity: 1;
+    }
+  }
+  
+  /* Button */
+  .btns-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .btn {
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 45px;
+  }
+  .btn:hover {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--primary-color);
+  }
