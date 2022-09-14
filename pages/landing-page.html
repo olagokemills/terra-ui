@@ -13,8 +13,18 @@
         <link rel="stylesheet" href="../assets/css/styles.css" >
     </head>
     <body>
+        <div class="header-alt">
+            <div class="align-self-center">
+                <img src="../assets/images/bg/ham.svg"  class="img-fluid"/>
+            </div>
+            <div class="align-self-center">
+                <img src="../assets/images/brand/Terraswitch.svg" class="img-fluid" />
+            </div>
+            <div>&nbsp;</div>
+        </div>
         <div class="container-fluid p-0">
             <section class="container hero-section">
+               
                 <div class="header-auth d-flex justify-content-between mt-3">
                     <div class="align-self-center">
                         <img src="../assets/images/brand/Terraswitch.svg" />
@@ -43,7 +53,7 @@
                     </div>
                 </div>
                 <div class="row mt-5">
-                    <div class="col-md-6 align-self-center">
+                    <div class="col-md-6 align-self-center hero-section__text">
                         <h2 class="extrabold-text"><span class="color-pry">Buy Now</span>, <br />
                             Buy Anywhere</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adied do 
@@ -107,8 +117,8 @@
                             </button>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <img src="../assets/images/bg/hero-bg.svg" class="" />
+                    <div class="col-md-6 hero-section__img">
+                        <img src="../assets/images/bg/hero-bg.svg" class="img-fluid" />
                     </div>
                 </div>
             </section>
@@ -147,7 +157,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="../assets/images/brand/quick-buy.svg" />
+                            <img src="../assets/images/brand/quick-buy.svg" class="img-fluid" />
                         </div>
                         <div class="col-md-6 align-self-center">
                             <h3>Quick buy anything & pay<br /> for your bills</h3>
@@ -213,7 +223,7 @@
                             <button class="btn btn-left">Become an agent <img src="../assets/images/icos/arrow-white.svg" /> </button>
                         </div>
                         <div class="col-md-6">
-                            <img src="../assets/images/brand/quick-sell.png" />
+                            <img src="../assets/images/brand/quick-sell.png" class="img-fluid" />
                         </div>
                     </div>
                 </div>
@@ -442,6 +452,7 @@
             type   : 'loop',
             perPage: 3,
             perMove: 1,
+            autoWidth: true,
             } );
 
             splide.mount();

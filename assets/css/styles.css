@@ -212,7 +212,7 @@ tbody tr{
 }
 .doability-section,.service-section{
     background-color: #932F8F;
-    padding: 5rem;
+    padding-top: 5rem;
     padding-bottom: 5rem;
     /* min-height: 0vh; */
 }
@@ -449,4 +449,45 @@ label {
   }
   .btn:hover {
     box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--primary-color);
+  }
+  .header-alt{
+    display: none;
+    background: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    height: 55px;
+    padding: 2rem;
+    border-bottom: 2px solid #E4ECF6;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .header-auth
+    {
+       display: none !important;
+    }
+    .header-alt{
+        display:flex;
+        justify-content: space-between;
+    }
+    .card{
+        margin-bottom: 1rem !important;
+    }
+    .quick-pay__button span{
+        padding-right: 0 !important;
+    }
+    .hero-section{
+        margin-top: 5rem !important;
+    }
+    .hero-section h2{
+        text-align: center;
+    }
+    .hero-section__img{
+        order: 1;
+    }
+    .hero-section__text{
+        order: 2;
+    }
   }
